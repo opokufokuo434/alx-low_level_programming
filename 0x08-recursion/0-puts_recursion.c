@@ -1,21 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 #include "main.h"
 /**
  * _puts_recursion - This prints a string with recursion
@@ -32,5 +14,3 @@ void _puts_recursion(char *s)
 	s = s + 1;
 	_puts_recursion(s);
 }
-
-
